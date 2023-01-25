@@ -220,7 +220,7 @@ class ConnectionStateChange {
 class ConnectionError {
   final String message;
   final String code;
-  final String exception;
+  final String? exception;
 
   ConnectionError({
     required this.message,
